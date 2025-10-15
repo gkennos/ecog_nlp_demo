@@ -23,7 +23,7 @@ On examination he was well looking and of ECOG performance status 0	ECOG perform
 Appears well and has a performance status of zero	performance status of zero	ecog_status	ecog_status
 O/E ECOG 0	ECOG 0	ecog_status	ecog_status
 Well Remains ECOG 0	ECOG 0	ecog_status	ecog_status
-Éwoman of ECOG 0 performance status.	ECOG 0	ecog_status	ecog_status
+ï¿½woman of ECOG 0 performance status.	ECOG 0	ecog_status	ecog_status
 His ECOG performance status is zero.	ECOG performance status is zero	ecog_status	ecog_status
 She has an ECOG performance status of 0.	ECOG performance status of 0	ecog_status	ecog_status
 ECOG performance status 3	ECOG performance status 3	ecog_status	ecog_status
@@ -48,7 +48,7 @@ ECOG PS 1.	ECOG PS 1	ecog_status	ecog_status
 "Unlimited ET, ECOG - 0"	ECOG - 0	ecog_status	ecog_status
 "EtOH, ECOG1"	ECOG1	ecog_status	ecog_status
 Social history ECOG 2	ECOG 2	ecog_status	ecog_status
-"NKDA, SH Ð ECOG 0"	ECOG 0	ecog_status	ecog_status
+"NKDA, SH ï¿½ ECOG 0"	ECOG 0	ecog_status	ecog_status
 "Change in taste, ECOG 0"	ECOG 0	ecog_status	ecog_status
 "Independent with personal and instrumental ADLs, ECOG 0"	ECOG 0	ecog_status	ecog_status
 OE: ECOG 0	ECOG 0	ecog_status	ecog_status
@@ -71,7 +71,7 @@ current performance status of ECOG 3	ECOG 3	ecog_status	ecog_status
 ECOG 0"	ECOG 0	ecog_status	ecog_status
 86M ECOG 3 	ECOG 3	ecog_status	ecog_status
 ECOG 1/5	ECOG 1/5	ecog_status	ecog_status
-performance score 2.3 months agoÉ	performance score 2	ecog_status	ecog_status
+performance score 2.3 months agoï¿½	performance score 2	ecog_status	ecog_status
 55f ecog4	4	ecog_status	ecog_status_value
 Addit: ECOG=3	3	ecog_status	ecog_status_value
 ecog ps 2	2	ecog_status	ecog_status_value
@@ -94,7 +94,7 @@ On examination he was well looking and of ECOG performance status 0	0	ecog_statu
 Appears well and has a performance status of zero	0	ecog_status	ecog_status_value
 O/E ECOG 0	0	ecog_status	ecog_status_value
 Well Remains ECOG 0	0	ecog_status	ecog_status_value
-Éwoman of ECOG 0 performance status.	0	ecog_status	ecog_status_value
+ï¿½woman of ECOG 0 performance status.	0	ecog_status	ecog_status_value
 His ECOG performance status is zero.	0	ecog_status	ecog_status_value
 She has an ECOG performance status of 0.	0	ecog_status	ecog_status_value
 ECOG performance status 3	3	ecog_status	ecog_status_value
@@ -119,7 +119,7 @@ ECOG PS 1.	1	ecog_status	ecog_status_value
 "Unlimited ET, ECOG - 0"	0	ecog_status	ecog_status_value
 "EtOH, ECOG1"	1	ecog_status	ecog_status_value
 Social history ECOG 2	2	ecog_status	ecog_status_value
-"NKDA, SH Ð ECOG 0"	0	ecog_status	ecog_status_value
+"NKDA, SH ï¿½ ECOG 0"	0	ecog_status	ecog_status_value
 "Change in taste, ECOG 0"	0	ecog_status	ecog_status_value
 "Independent with personal and instrumental ADLs, ECOG 0"	0	ecog_status	ecog_status_value
 OE: ECOG 0	0	ecog_status	ecog_status_value
@@ -142,43 +142,8 @@ current performance status of ECOG 3	3	ecog_status	ecog_status_value
 ECOG 0"	0	ecog_status	ecog_status_value
 86M ECOG 3 	3	ecog_status	ecog_status_value
 ECOG 1/5	1	ecog_status	ecog_status_value
-performance score 2.3 months agoÉ	2	ecog_status	ecog_status_value
+performance score 2.3 months agoï¿½	2	ecog_status	ecog_status_value
 karnofsky performance status of 80	[]	ecog_status	ecog_status
 nodal status: 2	[]	ecog_status	ecog_status
 nutrition status 4.	[]	ecog_status	ecog_status
 ECOG 7	[]	ecog_status	ecog_status
-			
-			
-			
-			
-			
-			
-			
-			
-			
-			
-			
-			
-			
-			
-			
-			
-			
-			
-			
-			
-			
-			
-			
-			
-			
-			
-			
-			
-			
-			
-			
-			
-			
-			
-			
