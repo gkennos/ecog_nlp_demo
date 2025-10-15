@@ -6,5 +6,8 @@ RUN pip install --no-cache-dir jupyterlab numpy pandas matplotlib
 WORKDIR /home/jovyan
 COPY . .
 
-# Default command when the container starts
-CMD ["jupyter", "notebook", "--ip=0.0.0.0", "--no-browser", "--allow-root"]
+# Expose port Binder expects
+EXPOSE 8888
+
+# Run Jupyter when the container starts
+CMD ["jupyter", "lab", "--ip=0.0.0.0", "--port=8888", "--no-browser", "--allow-root"]
