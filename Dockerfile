@@ -1,14 +1,17 @@
-FROM python:3.11-slim
+FROM jupyter/minimal-notebook:python-3.11
+USER root
 
-COPY requirements.txt .
-RUN pip install --no-cache-dir -r requirements.txt
+RUN apt-get update && \
+    apt-get install -y --no-install-recommends git build-essential && \
+    rm -rf /var/lib/apt/lists/*
 
-# Create a working directory
+COPY requirements.txt /tmp/
+RUN pip install --no-cache-dir -r /tmp/requirements.txt
+
+
 WORKDIR /home/jovyan
 COPY . .
-
-# Expose port Binder expects
 EXPOSE 8888
 
-# Run Jupyter when the container starts
-CMD ["jupyter", "lab", "--ip=0.0.0.0", "--port=8888", "--no-browser", "--allow-root"]
+# Start JupyterLab in Binder-friendly way
+CMD ["start-notebook.sh", "--LabApp.token=''", "--ip=0.0.0.0", "--port=8888", "--no-browser"]
