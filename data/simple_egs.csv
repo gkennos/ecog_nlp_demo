@@ -1,0 +1,184 @@
+InputData	ExpectedResult	EntityPipe	Attribute
+55f ecog4	ecog4	ecog_status	ecog_status
+Addit: ECOG=3	ECOG=3	ecog_status	ecog_status
+ecog ps 2	ecog ps 2	ecog_status	ecog_status
+"ECOG performance status: 0
+bloodwork done"	ECOG performance status: 0	ecog_status	ecog_status
+(ecog 0-1)	ecog 0-1	ecog_status	ecog_status
+"o/e ECOG 2, seems well"	ECOG 2	ecog_status	ecog_status
+ecog was 4 now 3	ecog was 4 now 3	ecog_status	ecog_status
+ecog between 3 and 4	ecog between 3 and 4	ecog_status	ecog_status
+ecog ~3	ecog ~3	ecog_status	ecog_status
+ecog ?4	ecog ?4	ecog_status	ecog_status
+ecog still at 2	ecog still at 2	ecog_status	ecog_status
+ecog currently 3	ecog currently 3	ecog_status	ecog_status
+ECOG PS 2-3	ECOG PS 2-3	ecog_status	ecog_status
+ECOG 3/4	ECOG 3/4	ecog_status	ecog_status
+ECOG1-2	ECOG1-2	ecog_status	ecog_status
+ECOG zero	ECOG zero	ecog_status	ecog_status
+ecog 3.	ecog 3	ecog_status	ecog_status
+ecog is 4	ecog is 4	ecog_status	ecog_status
+"blood   marker stable, lfts ok, ct   , ecog =2"	ecog =2	ecog_status	ecog_status
+On examination he was well looking and of ECOG performance status 0	ECOG performance status 0	ecog_status	ecog_status
+Appears well and has a performance status of zero	performance status of zero	ecog_status	ecog_status
+O/E ECOG 0	ECOG 0	ecog_status	ecog_status
+Well Remains ECOG 0	ECOG 0	ecog_status	ecog_status
+…woman of ECOG 0 performance status.	ECOG 0	ecog_status	ecog_status
+His ECOG performance status is zero.	ECOG performance status is zero	ecog_status	ecog_status
+She has an ECOG performance status of 0.	ECOG performance status of 0	ecog_status	ecog_status
+ECOG performance status 3	ECOG performance status 3	ecog_status	ecog_status
+ECOG - 1	ECOG - 1	ecog_status	ecog_status
+History: ECOG 2-3	ECOG 2-3	ecog_status	ecog_status
+ECOG now 3-4	ECOG now 3-4	ecog_status	ecog_status
+ECOG now 3 to 4	ECOG now 3 to 4	ecog_status	ecog_status
+ECOG Performance status 1	ECOG Performance status 1	ecog_status	ecog_status
+ECOG PS 1.	ECOG PS 1	ecog_status	ecog_status
+ECOG 3+	ECOG 3	ecog_status	ecog_status
+(ECOG 1)	ECOG 1	ecog_status	ecog_status
+ECOG status is 2	ECOG status is 2	ecog_status	ecog_status
+ECOG ~1	ECOG ~1	ecog_status	ecog_status
+ECOG1/2	ECOG1/2	ecog_status	ecog_status
+Poor PS-ECOG 3 (due to comorbidities)	ECOG 3	ecog_status	ecog_status
+Note ECOG now 0	ECOG now 0	ecog_status	ecog_status
+ECOG ?0	ECOG ?0	ecog_status	ecog_status
+ECOG0-1-very active	ECOG0-1	ecog_status	ecog_status
+Likely ECOG 0	ECOG 0	ecog_status	ecog_status
+ECOG PS 1.	ECOG PS 1	ecog_status	ecog_status
+"Pt reviewed with partner, ECOG PS 2"	ECOG PS 2	ecog_status	ecog_status
+"Unlimited ET, ECOG - 0"	ECOG - 0	ecog_status	ecog_status
+"EtOH, ECOG1"	ECOG1	ecog_status	ecog_status
+Social history ECOG 2	ECOG 2	ecog_status	ecog_status
+"NKDA, SH – ECOG 0"	ECOG 0	ecog_status	ecog_status
+"Change in taste, ECOG 0"	ECOG 0	ecog_status	ecog_status
+"Independent with personal and instrumental ADLs, ECOG 0"	ECOG 0	ecog_status	ecog_status
+OE: ECOG 0	ECOG 0	ecog_status	ecog_status
+"Urine MCS - RCC normal, WCC 10-100. Culure NEG. 
+ECOG 1"	ECOG 1	ecog_status	ecog_status
+"OE, ECOG 1"	ECOG 1	ecog_status	ecog_status
+"Doing light house work
+ECOG 1"	ECOG 1	ecog_status	ecog_status
+"OE, ECOG 1"	ECOG 1	ecog_status	ecog_status
+O/E: ECOG 0	ECOG 0	ecog_status	ecog_status
+"tires at shopping. son doing cleaning
+ECOG 3"	ECOG 3	ecog_status	ecog_status
+"applying to Centrelink.
+ECOG = 1"	ECOG = 1	ecog_status	ecog_status
+OE: ECOG=0	ECOG=0	ecog_status	ecog_status
+"Impression:
+ECOG 0"	ECOG 0	ecog_status	ecog_status
+current performance status of ECOG 3	ECOG 3	ecog_status	ecog_status
+"Remains very active and working full time
+ECOG 0"	ECOG 0	ecog_status	ecog_status
+86M ECOG 3 	ECOG 3	ecog_status	ecog_status
+ECOG 1/5	ECOG 1/5	ecog_status	ecog_status
+performance score 2.3 months ago…	performance score 2	ecog_status	ecog_status
+55f ecog4	4	ecog_status	ecog_status_value
+Addit: ECOG=3	3	ecog_status	ecog_status_value
+ecog ps 2	2	ecog_status	ecog_status_value
+"ECOG performance status: 0
+bloodwork done"	0	ecog_status	ecog_status_value
+(ecog 0-1)	1	ecog_status	ecog_status_value
+o/e ECOG 2	2	ecog_status	ecog_status_value
+ecog between 3 and 4	4	ecog_status	ecog_status_value
+ecog ?4	4	ecog_status	ecog_status_value
+ecog still at 2	2	ecog_status	ecog_status_value
+ecog currently 3	3	ecog_status	ecog_status_value
+ECOG PS 2-3	3	ecog_status	ecog_status_value
+ECOG 3/4	4	ecog_status	ecog_status_value
+ECOG1-2	2	ecog_status	ecog_status_value
+ECOG zero	0	ecog_status	ecog_status_value
+ecog 3.	3	ecog_status	ecog_status_value
+ecog is 4	4	ecog_status	ecog_status_value
+"blood   marker stable, lfts ok, ct   , ecog =2"	2	ecog_status	ecog_status_value
+On examination he was well looking and of ECOG performance status 0	0	ecog_status	ecog_status_value
+Appears well and has a performance status of zero	0	ecog_status	ecog_status_value
+O/E ECOG 0	0	ecog_status	ecog_status_value
+Well Remains ECOG 0	0	ecog_status	ecog_status_value
+…woman of ECOG 0 performance status.	0	ecog_status	ecog_status_value
+His ECOG performance status is zero.	0	ecog_status	ecog_status_value
+She has an ECOG performance status of 0.	0	ecog_status	ecog_status_value
+ECOG performance status 3	3	ecog_status	ecog_status_value
+ECOG - 1	1	ecog_status	ecog_status_value
+History: ECOG 2-3	3	ecog_status	ecog_status_value
+ECOG now 3-4	4	ecog_status	ecog_status_value
+ECOG now 3 to 4	4	ecog_status	ecog_status_value
+ECOG Performance status 1	1	ecog_status	ecog_status_value
+ECOG PS 1.	1	ecog_status	ecog_status_value
+ECOG 3+	3	ecog_status	ecog_status_value
+(ECOG 1)	1	ecog_status	ecog_status_value
+ECOG status is 2	2	ecog_status	ecog_status_value
+ECOG ~1	1	ecog_status	ecog_status_value
+ECOG1/2	2	ecog_status	ecog_status_value
+Poor PS-ECOG 3 (due to comorbidities)	3	ecog_status	ecog_status_value
+Note ECOG now 0	0	ecog_status	ecog_status_value
+ECOG ?0	0	ecog_status	ecog_status_value
+ECOG0-1-very active	1	ecog_status	ecog_status_value
+Likely ECOG 0	0	ecog_status	ecog_status_value
+ECOG PS 1.	1	ecog_status	ecog_status_value
+"Pt reviewed with partner, ECOG PS 2"	2	ecog_status	ecog_status_value
+"Unlimited ET, ECOG - 0"	0	ecog_status	ecog_status_value
+"EtOH, ECOG1"	1	ecog_status	ecog_status_value
+Social history ECOG 2	2	ecog_status	ecog_status_value
+"NKDA, SH – ECOG 0"	0	ecog_status	ecog_status_value
+"Change in taste, ECOG 0"	0	ecog_status	ecog_status_value
+"Independent with personal and instrumental ADLs, ECOG 0"	0	ecog_status	ecog_status_value
+OE: ECOG 0	0	ecog_status	ecog_status_value
+"Urine MCS - RCC normal, WCC 10-100. Culure NEG. 
+ECOG 1"	1	ecog_status	ecog_status_value
+"OE, ECOG 1"	1	ecog_status	ecog_status_value
+"Doing light house work
+ECOG 1"	1	ecog_status	ecog_status_value
+"OE, ECOG 1"	1	ecog_status	ecog_status_value
+O/E: ECOG 0	0	ecog_status	ecog_status_value
+"tires at shopping. son doing cleaning
+ECOG 3"	3	ecog_status	ecog_status_value
+"applying to Centrelink.
+ECOG = 1"	1	ecog_status	ecog_status_value
+OE: ECOG=0	0	ecog_status	ecog_status_value
+"Impression:
+ECOG 0"	0	ecog_status	ecog_status_value
+current performance status of ECOG 3	3	ecog_status	ecog_status_value
+"Remains very active and working full time
+ECOG 0"	0	ecog_status	ecog_status_value
+86M ECOG 3 	3	ecog_status	ecog_status_value
+ECOG 1/5	1	ecog_status	ecog_status_value
+performance score 2.3 months ago…	2	ecog_status	ecog_status_value
+karnofsky performance status of 80	[]	ecog_status	ecog_status
+nodal status: 2	[]	ecog_status	ecog_status
+nutrition status 4.	[]	ecog_status	ecog_status
+ECOG 7	[]	ecog_status	ecog_status
+			
+			
+			
+			
+			
+			
+			
+			
+			
+			
+			
+			
+			
+			
+			
+			
+			
+			
+			
+			
+			
+			
+			
+			
+			
+			
+			
+			
+			
+			
+			
+			
+			
+			
+			
